@@ -1,0 +1,18 @@
+
+
+#board {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    border: red .5px solid;
+}
+
+.cell {
+    border: red .5px solid;
+    height:1em;
+    width:1em;
+}
+
+.filled {
+    background-color: blue;
+}
