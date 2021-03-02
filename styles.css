@@ -1,18 +1,26 @@
-
+body {
+margin-left:25%;
+}
+h1 {
+    margin-left: 24%;
+}
+button {
+    margin-left: 17.5%;
+    margin-top: 1%;
+    width: 75px;
+    height: 35px;
+    font-size: 20px;
+}
 
 #board {
-    height: 500px;
-    width: 500px;
     display: flex;
-    border: red .5px solid;
+    margin: 5%;
+    margin-top: 2%;
+    height: 700px;
+    width: 700px;
+    border: black 5px solid;
 }
 
 .cell {
-    border: red .5px solid;
-    height:1em;
-    width:1em;
-}
-
-.filled {
-    background-color: blue;
+    border: black 1px solid;
 }

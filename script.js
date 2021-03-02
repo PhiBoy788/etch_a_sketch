@@ -9,15 +9,12 @@ function createBoard(size){
     for (i = 1; i <= size; i++) {
         newRow = document.createElement("div")
         newRow.id = ("row" + i)
-        //console.log(typeof newRow.id)
         for (j = 1; j <= size; j++) {
             cell = document.createElement("div")
             cell.className = "cell"
             cell.id = (String(i) + String(j))
             cell.addEventListener("mouseover",changeColor)
-            sizeofCell = (String(500 / size) + "px")
-            //console.log(sizeofCell)
-            //sizeofCell = "50px"
+            sizeofCell = (String((700 / size) - 2) + "px")
             console.log(sizeofCell)
             cell.style.height = sizeofCell
             cell.style.width = sizeofCell
